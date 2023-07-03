@@ -4,7 +4,9 @@
     android:id="@+id/scrollerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:scrollbars="vertical">
+    android:scrollbars="vertical"
+    app:overDragMode="true"
+    app:autoAdjustHeightAtBottomView="true">
 
     <TextView
         android:layout_width="match_parent"
